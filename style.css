@@ -1,0 +1,43 @@
+.quote-card {
+    
+    flex:wrap;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-card  {
+    display:flex;
+    flex:wrap;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#quote-container{
+    display: flex;
+    flex:wrap;
+}
+.etoile {
+    cursor: pointer;
+    font-size: 20px;
+    color: gold;
+}
+
+.etoile.clicked {
+    color: orange;
+}
+
+#favorites-container {
+    margin-top: 20px;
+    display: flex;
+    flex:wrap;
+}
